@@ -28,13 +28,24 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.(png|jpg|gif)$/i,
+        test: /\.(pdf|png|jpg|gif)$/i,
         use: [
           {
             loader: 'url-loader',
           },
         ],
       },
+      // {
+      //   test: /\.(pdf|png|jpe?g|gif)$/i,
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //       options: {
+      //         name: '[name].[ext]', // чтоб не менялось название файла
+      //       },
+      //     },
+      //   ],
+      // },
       {
         test: /\.html$/,
         use: [

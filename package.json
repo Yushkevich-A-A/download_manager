@@ -4,7 +4,7 @@
   "description": "download_manager",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --config webpack.dev.js --host localhost",
+    "start": "webpack serve --config webpack.dev.js --host 0.0.0.0",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint .",
     "coverage": "jest --coverage",
@@ -14,7 +14,8 @@
     "preshow:doc": "npm run doc",
     "show:doc": "live-server doc",
     "preshow:dist": "npm run build",
-    "show:dist": "live-server dist"
+    "show:dist": "live-server dist",
+    "live": "live-server src"
   },
   "repository": "https://github.com/Yushkevich-A-A/download_manager.git",
   "author": "Yushkevich-A-A <Mortifer1993@yandex.ru>",

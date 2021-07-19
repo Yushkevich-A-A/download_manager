@@ -1,0 +1,9 @@
+{
+  "name": "download_manager",
+  "version": "1.0.0",
+  "description": "download_manager",
+  "main": "index.js",
+  "repository": "https://github.com/Yushkevich-A-A/download_manager.git",
+  "author": "Yushkevich-A-A <Mortifer1993@yandex.ru>",
+  "license": "MIT"
+}

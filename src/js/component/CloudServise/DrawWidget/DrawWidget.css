@@ -32,8 +32,16 @@
     width: 15%;
   }
   
-  .download::after {
+  .kb::after {
     content: "Kb"
+  }
+
+  .mb::after {
+    content: "Mb"
+  }
+
+  .link {
+    cursor: pointer;
   }
   
   .link:hover {

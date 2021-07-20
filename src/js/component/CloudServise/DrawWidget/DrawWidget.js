@@ -1,13 +1,12 @@
 export default class DrawWidget {
-    constructor() {
+  constructor() {
+    this.drawWidget();
+  }
 
-        this.drawWidget();
-    }
-
-    drawWidget() {
-        this.widget = document.createElement('div');
-        this.widget.classList.add('widget');
-        this.widget.innerHTML = `<div class="download-field">
+  drawWidget() {
+    this.widget = document.createElement('div');
+    this.widget.classList.add('widget');
+    this.widget.innerHTML = `<div class="download-field">
         <div class="title">
           <h1 class="main-title">
             Availiable Files (without sms and registration)
@@ -55,6 +54,6 @@ export default class DrawWidget {
         You\`ve already downloaded: <span class="downloaded">0</span>
       </div>`;
 
-        document.body.appendChild(this.widget);
-    }
+    document.body.appendChild(this.widget);
+  }
 }
